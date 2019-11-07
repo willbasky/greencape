@@ -1,6 +1,8 @@
 resolver: lts-13.19
 
-extra-deps: [base-noprelude-4.12.0.0]
+extra-deps:
+  - base-noprelude-4.12.0.0
+  - acid-state-0.15.2
 
 ghc-options:
   "$locals": -fhide-source-paths

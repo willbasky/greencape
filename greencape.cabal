@@ -24,9 +24,16 @@ library
   hs-source-dirs:      src
   exposed-modules:     Greencape
                        Prelude
+                       State
+                       Util
 
   build-depends:       base-noprelude ^>= 4.12.0.0
                      , relude
+                     , acid-state
+                     , containers
+                     , microlens-platform
+                     , safecopy
+                     , template-haskell
                      , time
 
   ghc-options:         -Wall
@@ -40,6 +47,13 @@ library
                        -Wpartial-fields
 
   default-language:    Haskell2010
+
+  default-extensions:  DeriveGeneric
+                       LambdaCase
+                       OverloadedStrings
+                       RecordWildCards
+                       ScopedTypeVariables
+                       TypeApplications
 
 executable greencape
   hs-source-dirs:      app
@@ -63,6 +77,12 @@ executable greencape
                        -Wpartial-fields
 
   default-language:    Haskell2010
+  default-extensions:  DeriveGeneric
+                       LambdaCase
+                       OverloadedStrings
+                       RecordWildCards
+                       ScopedTypeVariables
+                       TypeApplications
 
 test-suite greencape-test
   type:                exitcode-stdio-1.0

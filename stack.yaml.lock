@@ -11,9 +11,16 @@ packages:
       sha256: 1e4118716a2078385341d7df2f876b616744c3a8f945247766e60f48e32b3d1d
   original:
     hackage: base-noprelude-4.12.0.0
+- completed:
+    hackage: acid-state-0.15.2@sha256:a059b9a73ec32739b3da76d9eb550c0476fc440c57a96bf55745849dd3a57e6c,6161
+    pantry-tree:
+      size: 13678
+      sha256: 6a9e4d51d327f29cbf8443da42481738e00bf092fee04d5435aaa69fecb72fdf
+  original:
+    hackage: acid-state-0.15.2
 snapshots:
 - completed:
-    size: 497510
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/13/16.yaml
-    sha256: 3e56dd069db766f8e4c0a61ba49611e549c8b7757369fe1a063d1c33548790ac
-  original: lts-13.16
+    size: 498155
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/13/19.yaml
+    sha256: b9367a80d4393d02e58a46b8a9fdfbd7bc19f59c0c2bbf90034ba15cf52cf213
+  original: lts-13.19
