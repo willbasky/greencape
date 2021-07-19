@@ -5,8 +5,8 @@ synopsis:            Keep house sensors data.
 description:         Keep house sensors data and share by email.
 homepage:            https://github.com/willbasky/greencape
 bug-reports:         https://github.com/willbasky/greencape/issues
-license:             GPL-3
-license-file:        LICENSE
+license:             UNLICENSE
+license-file:        UNLICENSE
 author:              Vladislav Sabanov
 maintainer:          Vladislav Sabanov
 copyright:           2019 Vladislav Sabanov
